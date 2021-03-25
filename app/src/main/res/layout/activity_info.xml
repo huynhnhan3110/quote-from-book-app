@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg_infor"
+    android:paddingTop="75dp"
+    android:paddingLeft="60dp"
+    android:paddingRight="50dp"
+    tools:context=".InfoActivity"
+    tools:ignore="Overdraw">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="100dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="left"
+            >
+<!--            //textview giới thiệu-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Giới thiệu: "
+                android:textSize="30sp"
+                android:layout_gravity="center"
+                android:fontFamily="@font/fontgt"
+                android:textColor="#510750"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/intro"
+                android:textSize="17sp"
+                android:textColor="#510750"
+                android:layout_gravity="left"
+                android:fontFamily="@font/thuong"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1. Đại học không lạc hướng
+                \n2. Nóng giận là bản năng, tĩnh lặng là bản lĩnh
+                \n3. Không phải chưa đủ năng lực mà là chưa đủ kiên định
+                \n4. Sống thực tế giữa đời thực dụng
+                \n5. Đi tìm lẽ sống
+                \n6. Phụ nữ vạn người mê
+                \n7. Sống thực tế giữa đời thực dụng
+                \n8.	Không nỗ lực đừng tham vọng
+                \n9.	Khí chất bao nhiêu hạnh phúc bấy nhiêu
+                \n10.	Cử chỉ những điều nên làm và nên tránh trong ngôn ngữ cử chỉ khắp thế giới
+                \n11.	Làm chủ tuổi 20
+                \n12.	Sức mạnh tiềm thức
+                \n13.	Đừng cười để vừa lòng người
+                \n14.	Hài hước một chút thế giới sẽ khác đi
+                \n15.	Thông điệp của nước
+                \n16.	Nói thế nào để được chào đón làm thế nào để được ghi nhận
+                \n17.	Đừng để tương lai chết trước tuổi 30
+                \n18.	Bạn mới là chủ nhân của cuộc đời mình
+                \n19.	Trò chuyện cùng ác quỷ
+                \n20.	Sách đen
+                \n21.	Đừng chỉ mặc màu đen
+                \n22.	Muôn kiếp nhân sinh…"
+                android:textSize="17sp"
+                android:textColor="#510750"
+                android:layout_gravity="center"
+                android:fontFamily="@font/thuong"
+                />
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+
+    android:layout_height="match_parent"
+    android:background="#ffffff">
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_centerHorizontal="true"
+    android:layout_centerVertical="true"
+    android:orientation="vertical">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="170dp"
+        android:src="@drawable/logo2" />
+
+    <TextView
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:fontFamily="@font/utmbryan"
+        android:layout_height="wrap_content"
+        android:text="Trong một quyển sách, \nchỉ 20% nội dung là những điều \ncốt lõi, đắt giá..."
+        android:textSize="24sp"
+        android:textColor="#85b79c"
+        android:textStyle="bold"
+        android:textAlignment="center"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="50dp"
+        />
+</LinearLayout>
+
+
+
+</RelativeLayout>

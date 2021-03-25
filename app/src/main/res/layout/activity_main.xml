@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/basebackground"
+    tools:context=".MainActivity">
+
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/baseline_error_outline_white_36"
+        android:id="@+id/infoicon"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"/>
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/hinh"
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:src="@drawable/hinhtron"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        app:civ_border_width="4dp"
+        app:civ_border_color="#ffffff"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Touch me"
+        android:textSize="29sp"
+        android:id="@+id/touchme"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:textColor="#707070"
+        android:layout_gravity="center"
+        android:fontFamily="@font/aaaiight"
+        />
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/animation_view"
+        android:layout_width="206dp"
+        android:layout_height="206dp"
+        app:lottie_rawRes="@raw/layer"
+        app:lottie_loop="true"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        app:lottie_autoPlay="true" />
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/animation_popup"
+        android:layout_width="1556dp"
+        android:layout_height="1556dp"
+        android:scaleType="centerCrop"
+        app:lottie_rawRes="@raw/circle5"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        app:lottie_autoPlay="false" />
+    <ImageView
+        android:id="@+id/truotlen"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/ic_baseline_expand_less_24"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:backgroundTint="@color/white"
+
+        />
+
+</RelativeLayout>

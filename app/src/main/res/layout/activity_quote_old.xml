@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/backgroundquotecu"
+    tools:context=".QuoteOld">
+
+    <com.airbnb.lottie.LottieAnimationView
+                android:id="@+id/animation_viewold"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                app:lottie_rawRes="@raw/favorite"
+                app:lottie_loop="true"
+                app:lottie_autoPlay="true"
+                android:layout_marginTop="-21dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Các trích dẫn yêu thích sẽ hiển thị ở đây\nNhấn vào để xem chi tiết, nhấn giữ để xóa."
+
+        android:gravity="center"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        />
+<ListView
+    android:layout_marginTop="0dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:divider="@android:color/transparent"
+    android:dividerHeight="25.0sp"
+    android:padding="20dp"
+    android:id="@+id/lv"/>
+
+</LinearLayout>

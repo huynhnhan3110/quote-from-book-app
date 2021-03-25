@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Quotes From Books</string>
+    <string name="title_activity_welcome">Home Screen</string>
+    <string name="next">NEXT</string>
+    <string name="skip">SKIP</string>
+    <string name="start">GOT IT</string>
+
+    <string name="intro">"<b>Nhóm phát triển:</b> Nothing Like Those Others team
+                \n<b>Ngày phát hành phiên bản đầu tiên:</b> 05/02/2021
+               \n<b>Phiên bản:</b> 1.0
+               \n<b>Những quyển sách được trích dẫn:</b> "</string>
+</resources>
